@@ -27,7 +27,7 @@ public class _00_TestSpecialString {
 	//   to make the JUnitTest case pass.
 	@Test
 	public void testMixedCapsString() {
-		SpecialString mcs = new MixedCapsString("This is also a test");
+		SpecialString mcs = new MixedCapsString("this is also a test");
 		System.out.println(mcs);
 		assertEquals("tHiS Is aLsO A TeSt", mcs.toString());
 	}
